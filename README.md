@@ -33,7 +33,7 @@ This will create the files required to compute the filtered metrics.
 If you are encountering errors, check that the datasets.py files are pointing at the correct paths for the data.
 
 ## Architecture Search and Evaluation
-There is one folder provded for each of the non-strided and strided search spaces. In each case, the script `train_search.py` performs architecture search, and `train.py` trains existing architectures, which can be specified in `genotypes.py`.
+There is one folder provded for each of the non-strided and strided search spaces. In each case, the script `train_search.py` performs architecture search, and `train.py` trains existing architectures, which can be specified in `genotypes.py`. The other scripts are dated and are unlikely to run.
 
 Notes:
 The command line argument `--interleaved` toggles the interleaving of input embeddings
